@@ -1,0 +1,84 @@
+.work-section {
+  padding-top: 0;
+
+  .list {
+    @include flex;
+    z-index: 1;
+  }
+
+  li:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.section-heading {
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  color: #000;
+}
+
+.work__list {
+  @include flex;
+}
+
+.work-section__list-item {
+  position: relative;
+}
+
+.work-section__picture-1::after {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  content: "Десктопні додатки";
+  width: 100%;
+  height: 70px;
+  padding-top: 27px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.work-section__picture-2::after {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  content: "Мобільні додатки";
+  width: 100%;
+  height: 70px;
+  padding-top: 27px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.work-section__picture-3::after {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  content: "Дизайнерські рішення";
+  width: 100%;
+  height: 70px;
+  padding-top: 27px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+  background: rgba(47, 48, 58, 0.8);
+}

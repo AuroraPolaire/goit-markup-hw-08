@@ -1,0 +1,32 @@
+body {
+  font-family: var(--primary-font);
+  color: var(--paragraph-color);
+  background-color: var(--backgroun-color-white);
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+img {
+  display: block;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
