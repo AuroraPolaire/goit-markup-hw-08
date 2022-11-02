@@ -1,27 +1,13 @@
-.menu-container {
-  @media screen and (min-width: 768px) {
-    @include flex;
-  }
-}
-
-header {
-  border-bottom: 1px solid #ececec;
-}
-
 .navigation {
-  @media screen and (min-width: 768px) {
-    @include flex;
-    flex-direction: row;
-    padding-left: 0px;
-  }
+  @include flex;
+  flex-direction: row;
+  padding-left: 0px;
 }
 
 .contacts {
-  @media screen and (min-width: 768px) {
-    @include flex;
-    padding-left: 0px;
-    margin-left: auto;
-  }
+  @include flex;
+  padding-left: 0px;
+  margin-left: auto;
 }
 
 .navigation__list {

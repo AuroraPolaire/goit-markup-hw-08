@@ -1,79 +1,35 @@
 .hero {
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 210px;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("/images/header-img-400.jpg");
+    url("../images/bg.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  @media screen and (min-width: 480px) {
-    padding-top: 118px;
-    padding-bottom: 118px;
-    background-image: linear-gradient(
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url("/images/header-img-400.jpg");
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    height: 400px;
-  }
-
-  @media screen and (min-width: 768px) {
-  }
-
-  @media screen and (min-width: 1200px) {
-    padding-top: 200px;
-    padding-bottom: 210px;
-    background-image: linear-gradient(
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url("../images/bg.jpg");
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    max-width: 1600рх;
-    height: 600px;
-    background-color: #c4c4c4;
-  }
+  max-width: 1600рх;
+  height: 600px;
+  background-color: #c4c4c4;
 }
 
 .hero__heading {
-  text-transform: uppercase;
-  color: #fff;
-  text-align: center;
+  margin-bottom: 30px;
+  width: 696px;
   margin-left: auto;
   margin-right: auto;
+
   font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
   letter-spacing: 0.06em;
-  margin-bottom: 30px;
-
-  @media screen and (min-width: 480px) {
-    font-size: 26px;
-    line-height: 1.6;
-    width: 360px;
-  }
-
-  @media screen and (min-width: 768px) {
-  }
-
-  @media screen and (min-width: 1200px) {
-    width: 696px;
-    font-size: 44px;
-    line-height: 1.36;
-  }
+  text-transform: uppercase;
+  color: #fff;
 }
 
 .hero__button {
-  @media screen and (min-width: 480px) {
-  }
-
-  @media screen and (min-width: 768px) {
-  }
-
-  @media screen and (min-width: 1200px) {
-  }
   display: inline-block;
   padding: 10px 32px;
   min-width: 216px;
