@@ -69,10 +69,20 @@
   resize: none;
 
   &::placeholder {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 0.5);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contact-form__comment-input::placeholder {
+    font-size: 12px;
+  }
+
+  .contact-form__policy-text {
+    font-size: 14px;
   }
 }
 
@@ -130,7 +140,7 @@
 }
 
 .contact-form__policy-text {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #757575;

@@ -1,5 +1,8 @@
 .portfolio__example-buttons {
   @include flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 8px;
   margin-bottom: 56px;
 }
 
@@ -32,6 +35,9 @@
   }
 }
 
-.portfolio__example-buttons .item:not(:last-child) {
-  margin-right: 8px;
+@media screen and (min-width: 768px) {
+  .portfolio__example-buttons {
+    @include flex;
+    margin-bottom: 56px;
+  }
 }
