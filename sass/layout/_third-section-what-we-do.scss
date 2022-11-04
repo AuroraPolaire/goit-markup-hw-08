@@ -1,3 +1,9 @@
+@media screen and (max-width: 1199px) {
+  .work-section {
+    display: none;
+  }
+}
+
 .work-section {
   padding-top: 0;
 
@@ -12,13 +18,20 @@
 }
 
 .section-heading {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 
   font-weight: 700;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.2;
   text-align: center;
   color: #000;
+}
+
+@media screen and (min-width: 1200px) {
+  .section-heading {
+    margin-bottom: 50px;
+    font-size: 36px;
+  }
 }
 
 .work__list {
