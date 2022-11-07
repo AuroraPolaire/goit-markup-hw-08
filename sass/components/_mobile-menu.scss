@@ -109,9 +109,9 @@
   top: 0;
   display: block;
   content: " ";
-  width: 1px;
-  height: 22px;
-  background-color: #757575;
+  border-right: 1px solid #757575;
+  height: 80%;
+  top: 10%;
 }
 
 @media screen and (min-width: 768px) {
