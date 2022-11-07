@@ -95,23 +95,23 @@
   color: #2196f3;
 }
 
-.mobile-menu__social-nets-link {
-  margin-left: 10px;
-  margin-right: 10px;
+.mobile-menu__social-nets-item {
+  position: relative;
 }
 
-// .mobile-menu__social-nets-link:first-child {
-//   margin-right: 0;
-// }
+.mobile-menu__social-nets-item:not(:last-child) {
+  margin-right: 20px;
+}
 
-.mobile-menu__social-nets-item:not(:first-child)::after {
+.mobile-menu__social-nets-item:not(:last-child)::after {
   position: absolute;
   top: 0;
+  right: -10px;
   display: block;
   content: " ";
-  border-right: 1px solid #757575;
-  height: 80%;
-  top: 10%;
+  width: 1px;
+  height: 22px;
+  background-color: #757575;
 }
 
 @media screen and (min-width: 768px) {
